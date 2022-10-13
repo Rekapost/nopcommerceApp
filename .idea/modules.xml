@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../PythonPrograms/.idea/PythonPrograms.iml" filepath="$PROJECT_DIR$/../PythonPrograms/.idea/PythonPrograms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../seleniumproject/.idea/SeleniumProgramProject.iml" filepath="$PROJECT_DIR$/../seleniumproject/.idea/SeleniumProgramProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/nopcommerceApp.iml" filepath="$PROJECT_DIR$/.idea/nopcommerceApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../pythonProject1/.idea/pythonProject1.iml" filepath="$PROJECT_DIR$/../pythonProject1/.idea/pythonProject1.iml" />
+    </modules>
+  </component>
+</project>
