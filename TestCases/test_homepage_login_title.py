@@ -1,5 +1,4 @@
 import pytest
-
 from pageObjects.LoginPage import Login
 from Utilities.readProperties import ReadConfig
 from Utilities.customLogger import LogGen
@@ -65,3 +64,5 @@ class Test_OO1_Login:  # provide testcase unique id
 
 
 #pytest -s -v -m "sanity" --html=./Reports/report.html TestCases/ --browser chrome
+
+#C:\Users\Reka\PycharmProject\nopcommerceApp\TestCases\test_homepage_login_title.py

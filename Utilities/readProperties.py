@@ -5,7 +5,7 @@ config.read(".//Configurations/config.ini")   # .// current project     read met
 
 class ReadConfig: #class need not have ()
     @staticmethod
-    def getApplicationURL() :# i want to access this method directly using class name, so remove (self)in method and make this method as stattic method without creating object
+    def getApplicationURL(): # i want to access this method directly using class name,so remove (self)in method and make this method as stattic method without creating object
         url=config.get('common info','baseURL')
         return url
 

@@ -1,7 +1,5 @@
 import time
-
 import pytest
-
 from pageObjects.LoginPage import Login
 from Utilities.readProperties import ReadConfig
 from Utilities.customLogger import LogGen

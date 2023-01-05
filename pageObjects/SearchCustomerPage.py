@@ -10,8 +10,6 @@ class SearchCustomer:
     tableRows_xpath="//table[@id='customers-grid']//tbody/tr"
     tableColumns_xpath="//table[@id='customers-grid']//tbody/tr/td"
 
-
-
     def __init__(self,driver):
         self.driver=driver
     def searchbyemail(self,email):

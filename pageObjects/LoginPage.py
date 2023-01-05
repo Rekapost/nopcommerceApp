@@ -2,7 +2,6 @@
 # capture locators
 from selenium.webdriver.common.by import By
 
-
 class Login:
 # identify all locators  of login page
 #   textbox_username_id="Email"           #  locators

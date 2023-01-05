@@ -1,13 +1,10 @@
 import time
-
 import pytest
-
 from Utilities.customLogger import LogGen
 from Utilities.readProperties import ReadConfig
 from pageObjects.AddCustomerPage import AddCustomer
 from pageObjects.LoginPage import Login
 from pageObjects.SearchCustomerPage import SearchCustomer
-
 
 class Test__004__SearchCustomer:
     baseURL=ReadConfig.getApplicationURL()

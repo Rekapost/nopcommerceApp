@@ -2,9 +2,7 @@
 import string
 import random
 import time
-
 import pytest
-
 from Utilities.customLogger import LogGen
 from Utilities.readProperties import ReadConfig
 from pageObjects.AddCustomerPage import AddCustomer
@@ -44,7 +42,7 @@ class Test_003_AddCustomer:
         self.addcust.setlastname("NV")
         self.addcust.setdateofbirth("08/15/1983")
 
-    #   self.addcust.setcompanyname("compNV")c
+    #   self.addcust.setcompanyname("compNV")
     #   self.addcust.setcustomerroles("Guests")
 
         self.addcust.setmanagerofvendor("Vendor 2")

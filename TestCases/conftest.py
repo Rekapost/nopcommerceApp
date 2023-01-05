@@ -12,9 +12,10 @@ def setup():
     print("launching chrome browser")
 #   elif browser=='firefox':
 #       driver=webdriver.Firefox()
-#       print("launching chrome browser")
+#       print("launching firefox browser")
 #   else:
 #       driver=webdriver.Ie()
+#       print("launching Internet Explorer browser")
     return driver
 
 #write two methods to get browser from command prompt
